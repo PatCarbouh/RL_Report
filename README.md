@@ -1,6 +1,6 @@
 # Supervised Learning Report - Fall 2025
 
-This project implements and compares clustering methods and data reductions on  two datasets: Hotel Bookings and US Accidents.
+This project study how to solve and analyse MarkovDecision Processes (MDPs) using both dynamic programming and reinforcement learning methods.
 
 
 
@@ -13,7 +13,7 @@ This project implements and compares clustering methods and data reductions on  
 
 ### Installation
 
-It is still sl_report_env, it is easiest to continue on the same env
+It is still sl_report_env, it is easiest to carry on with the same env.
 
 Create and activate the conda environment:
 ```bash
@@ -30,19 +30,20 @@ pip install -r requirements.txt
 
 ### Running Experiments
 
-Every experiments are disponilbe on the notebook associated and all the results are plot on the Jupyter Notebooks.
+Every experiments are disponible on the notebook associated and all the results are saved on the same file with explicit name. So you can see all the experiments with 
+```bash
+jupyter notebook
+```
 
 
 ## Results
 
-Experiment results are saved in the `results/`  directory.
+Experiment results are saved in the directory related to the .
 ## Environment
 
 The project uses a conda environment with the following key dependencies:
-- pandas
 - scikit-learn
 - matplotlib
 - numpy
 - jupyter
-- category_encoders
-- pytorch
+- gymnasium
